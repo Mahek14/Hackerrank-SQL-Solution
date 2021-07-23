@@ -1,0 +1,4 @@
+select c.name 
+from city as c, country as a
+where a.continent = "Africa"
+and c.countrycode= a.code;
